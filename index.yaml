@@ -1,0 +1,58 @@
+apiVersion: v1
+entries:
+  adguard:
+  - apiVersion: v2
+    appVersion: v0.107.2
+    created: "2022-06-04T08:35:07.68833116Z"
+    description: Adguard Home DNS server
+    digest: 26640aafc89c05a8f7f18b48a8fe5433e9e44ae1a9004aaec8f11d925c15a4bd
+    name: adguard
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/adguard-1.1.1/adguard-1.1.1.tgz
+    version: 1.1.1
+  backup:
+  - apiVersion: v2
+    appVersion: 0.12.0
+    created: "2022-06-04T08:35:07.835917715Z"
+    description: Restic based backup and restore solution for persistent volume claims.
+    digest: 95ca036389e1b6db186bd39042b8993689d2009479f6299d1c704c756176da43
+    name: backup
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/backup-1.0.1/backup-1.0.1.tgz
+    version: 1.0.1
+  gotify:
+  - apiVersion: v2
+    appVersion: 2.0.23
+    created: "2022-06-04T08:35:07.969544967Z"
+    description: Gotify server
+    digest: 8f8325bb26925bf322332c1a6de9c8956a12b08e8a6b4ff454b8717a8c580403
+    name: gotify
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/gotify-0.1.1/gotify-0.1.1.tgz
+    version: 0.1.1
+  letsencrypt-issuer:
+  - apiVersion: v2
+    appVersion: v1.4.0
+    created: "2022-06-04T08:35:08.099431876Z"
+    description: ClusterIssuer solving Let's Encrypt DNS challenge
+    digest: 96a32e9100139e7f8d01cdcb4ace4bc050df0ceaec31b649b8d02125c65fa97b
+    name: letsencrypt-issuer
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/letsencrypt-issuer-0.1.0/letsencrypt-issuer-0.1.0.tgz
+    version: 0.1.0
+  tfstate-postgres:
+  - apiVersion: v2
+    appVersion: 13.3-alpine
+    created: "2022-06-04T08:35:08.248602333Z"
+    description: Posgres deployment for use as Terraform state backend
+    digest: 03e068975563f07efd36afb83b220d99c4379ee45ce8461405bd8f8e849254cd
+    name: tfstate-postgres
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/tfstate-postgres-0.1.0/tfstate-postgres-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-04T08:35:08.248608034Z"
