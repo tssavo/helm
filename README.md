@@ -8,6 +8,6 @@ Please **do not** treat any charts as production ready.
 ## Usage
 
 ```s
-$ helm repo add homelab https://github.com/tssavo/Helm-Charts
+$ helm repo add homelab https://github.com/tssavo/helm
 $ helm repo update
 ```
