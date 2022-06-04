@@ -1,4 +1,4 @@
-# Lior's Helm Charts
+# Tssavo's Helm Charts
 
 For the uninitiated, [Helm](https://helm.sh/) is basically a templating solution for Kubernetes resource manifest.
 
