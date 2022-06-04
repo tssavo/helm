@@ -29,7 +29,7 @@ spec:
       # Workaround to ConfigMap volumes being write only.
       initContainers:
         - name: {{ include "adguard.fullname" . }}-copy-config
-          image: busybox:1.33.1-musl
+          image: busybox:1.35.0
           command:
             - sh
             - -c
