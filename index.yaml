@@ -3,6 +3,16 @@ entries:
   adguard:
   - apiVersion: v2
     appVersion: v0.107.6
+    created: "2022-06-04T14:52:15.240864689Z"
+    description: Adguard Home DNS server
+    digest: cd4ca9ea0f199240e99f90b1a0d1ec3e8b063fc4faf25a6c7137956cb0a6f3b1
+    name: adguard
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/adguard-1.1.4/adguard-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v2
+    appVersion: v0.107.6
     created: "2022-06-04T14:43:52.652520509Z"
     description: Adguard Home DNS server
     digest: 5dae71300041f4923760c0ecbf27ddb283f1eb79f7a1bf6c7c8deafba7fb97a4
@@ -86,4 +96,4 @@ entries:
     urls:
     - https://github.com/tssavo/helm/releases/download/wireguard-0.1.0/wireguard-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-04T14:43:52.843385078Z"
+generated: "2022-06-04T14:52:15.240877889Z"
