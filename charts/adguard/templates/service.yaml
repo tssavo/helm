@@ -20,7 +20,7 @@ metadata:
   labels:
     {{- include "adguard.labels" . | nindent 4 }}
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   externalTrafficPolicy: Local
   ports:
     - port: 53
@@ -37,7 +37,7 @@ metadata:
   labels:
     {{- include "adguard.labels" . | nindent 4 }}
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   externalTrafficPolicy: Local
   ports:
     - port: 53
