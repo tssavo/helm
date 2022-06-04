@@ -8,7 +8,7 @@ description: Gotify server.
 Add the repository to Helm:
 
 ```s
-$ helm repo add https://tssavo.github.io/Helm-Charts
+$ helm repo add https://tssavo.github.io/helm
 $ helm repo update
 ```
 

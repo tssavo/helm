@@ -8,7 +8,7 @@ description: Posgres deployment for use as Terraform state backend.
 Add the repository to Helm:
 
 ```s
-$ helm repo add https://tssavo.github.io/Helm-Charts
+$ helm repo add https://tssavo.github.io/helm
 $ helm repo update
 ```
 

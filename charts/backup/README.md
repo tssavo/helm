@@ -8,7 +8,7 @@ description: Restic based backup and restore solution for persistent volume clai
 Add the repository to Helm:
 
 ```s
-$ helm repo add homelab https://tssavo.github.io/Helm-Charts
+$ helm repo add homelab https://tssavo.github.io/helm
 $ helm repo update
 ```
 
