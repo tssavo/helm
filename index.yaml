@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   adguard:
   - apiVersion: v2
+    appVersion: v0.107.6
+    created: "2022-06-04T13:17:42.499031006Z"
+    description: Adguard Home DNS server
+    digest: d6d437b2d8829610f8f4ec45430847b53527c58263c788767b1620e2da3ee6b6
+    name: adguard
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/adguard-1.1.2/adguard-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: v0.107.2
     created: "2022-06-04T08:35:07.68833116Z"
     description: Adguard Home DNS server
@@ -55,4 +65,4 @@ entries:
     urls:
     - https://github.com/tssavo/helm/releases/download/tfstate-postgres-0.1.0/tfstate-postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-04T08:35:08.248608034Z"
+generated: "2022-06-04T13:17:42.499041206Z"
