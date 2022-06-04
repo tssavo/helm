@@ -28,14 +28,3 @@ jobs:
         uses: helm/chart-releaser-action@v1.2.1
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-      
-      - name: Copy Helm repo index to website
-        if: hashFiles('./.cr-index/index.yaml') != ''
-        run: cp .cr-index/index.yaml ./public/index.yaml
-      
-      - name: Deploy website
-        if: hashFiles('./.cr-index/index.yaml') != ''
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
