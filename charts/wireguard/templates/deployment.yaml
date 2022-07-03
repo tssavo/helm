@@ -50,7 +50,7 @@ spec:
           - name: WG_DEFAULT_DNS
             value: {{ .Values.wg.dns | quote  }}
           - name: WG_PORT
-            value: {{ .Values.wg.port | quote }}
+            value: {{ .Values.service.nodePort | quote }}
           # - name: "WG_DEFAULT_ADDRESS"
           #   value: "10.8.0.x"
           # - name: "WG_MTU"
