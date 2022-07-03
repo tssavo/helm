@@ -16,8 +16,8 @@ fullnameOverride: ""
 
 wg:
   host: wg.example.com
-  port: 51820
-  dns: 8.8.8.8
+  port: '51820'
+  dns: '8.8.8.8'
   key: "PASS_KEY"
 
 persistence:
