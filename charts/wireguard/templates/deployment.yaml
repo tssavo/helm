@@ -45,6 +45,8 @@ spec:
           env:
           - name: WG_HOST
             value: {{ .Values.wg.host }}
+          - name: WG_PORT
+            value: {{ .Values.wg.port }}
           - name: PASSWORD
             value: {{ .Values.wg.key }}
           - name: WG_DEFAULT_DNS
