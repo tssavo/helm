@@ -98,6 +98,16 @@ entries:
   wireguard:
   - apiVersion: v2
     appVersion: "7"
+    created: "2022-07-03T09:28:12.088468526Z"
+    description: A Helm chart for Kubernetes
+    digest: 7240fd33684ee97b3e9ab5277a29d82dc3adcbeaab2fa086c3b547cabe958950
+    name: wireguard
+    type: application
+    urls:
+    - https://github.com/tssavo/helm/releases/download/wireguard-0.1.4/wireguard-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: "7"
     created: "2022-07-03T09:07:34.57171431Z"
     description: A Helm chart for Kubernetes
     digest: 75de262efdbeba40248ed677078120a7d4c3a97f8b6dd853fc21aff988c47df0
@@ -126,4 +136,4 @@ entries:
     urls:
     - https://github.com/tssavo/helm/releases/download/wireguard-0.1.0/wireguard-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-03T09:07:34.57173971Z"
+generated: "2022-07-03T09:28:12.088650331Z"
