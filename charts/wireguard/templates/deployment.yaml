@@ -44,15 +44,13 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           - name: WG_HOST
-            value: {{ .Values.wg.host }}
-          - name: WG_PORT
-            value: {{ .Values.wg.port }}
+            value: {{ .Values.wg.host | quote  }}
           - name: PASSWORD
-            value: {{ .Values.wg.key }}
+            value: {{ .Values.wg.key | quote  }}
           - name: WG_DEFAULT_DNS
-            value: {{ .Values.wg.dns }}
-          # - name: "WG_PORT"
-          #   value: "51820"
+            value: {{ .Values.wg.dns | quote  }}
+          - name: WG_PORT
+            value: {{ .Values.wg.port | quote }}
           # - name: "WG_DEFAULT_ADDRESS"
           #   value: "10.8.0.x"
           # - name: "WG_MTU"
